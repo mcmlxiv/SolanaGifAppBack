@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+myepicproject = "6N75RkPtbCMi1buyG3dFcRyB5S5zRaPyct1Wf3B5eZFN"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/mcmlxiv/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
